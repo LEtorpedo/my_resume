@@ -1,4 +1,4 @@
-// Modified by ice1000 at 2023-08-16
+// Modified by torpedo at 2025-04-26
 
 #let chiline() = {
   v(-3pt);
@@ -19,7 +19,6 @@
   link("https://github.com/" + userRepo)[#fa-icon("github") #userRepo]
 }
 
-// https://github.com/typst/typst/issues/1987#issuecomment-1690672386
 #let latex = {
   // set text(font: "New Computer Modern")
   box(width: 2.55em, {
